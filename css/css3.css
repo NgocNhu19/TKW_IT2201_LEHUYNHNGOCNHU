@@ -1,0 +1,55 @@
+
+.infos{
+  color:grey;
+  font-size:14px;
+ 
+}
+.introduction{
+  background-color: #f0f8ff;
+  color:grey;
+}
+
+/* {
+  padding:10px;
+  margin:10px;
+
+}*/
+.infos > p{
+  text-align: justify;
+  padding:10px;
+}
+h2 {
+ /* border:  2px solid steelblue;*/
+  background-color:#f0f8ff;
+  /*border-radius: 10px;*/
+  padding:10px;
+  text-align: center;
+  text-shadow: 0px 5px 5px #999999;
+  text-transform:uppercase ;
+}
+
+.gt {
+  background-color: steelblue;
+  color: black;
+  padding: var(--myspace);
+  margin-top: var(--myspace);
+  overflow: hidden;
+  font-weight: 600;
+
+
+}
+
+@keyframes move {
+  from {
+      left: 0;
+  }
+  to {
+      left: 100%;
+  }
+}
+
+.gt > span {
+  position: relative;
+  animation: move linear 10s infinite;
+  text-align: center;
+}

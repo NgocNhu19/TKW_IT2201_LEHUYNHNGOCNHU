@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #f0f8ff;
+}
+a{
+    text-decoration: none;
+}
+.containers{
+    margin:0 auto;
+    max-width: 960px;
+}
+#content h3{
+    padding:30px 0px;
+}
+#content p{
+    margin-bottom:20px;
+}
+.gt {
+    background-color: steelblue;
+    color: black;
+    padding: var(--myspace);
+    margin-top: var(--myspace);
+    overflow: hidden;
+    font-weight: 600;
+  
+  
+  }
+  
+  @keyframes move {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+  }
+  
+  .gt > span {
+    position: relative;
+    animation: move linear 10s infinite;
+    text-align: center;
+  }
+  .gt > span, h4{
+    text-shadow: 0px 5px 5px #999999;
+    margin-top:10px;
+  }

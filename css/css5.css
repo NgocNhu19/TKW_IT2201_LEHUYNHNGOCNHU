@@ -1,0 +1,27 @@
+section.introduction2 {
+    background-color: #f0f8ff;
+    color:white;
+    text-align:center;
+    padding: 20px 10%;
+}
+div.item{
+    width:50%;
+    padding:3px;
+    
+}
+div.items {
+   
+    display:flex;
+
+}
+div.item img{
+    height:300px;
+}
+p{
+    text-align: left;
+    padding:10px;
+    color:black;
+}
+h4{
+    color:black;
+}

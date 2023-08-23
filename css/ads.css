@@ -1,0 +1,43 @@
+#list{
+    display: flex;
+    width:max-content;
+}
+#formList{
+   /* width:1280px;*/
+    max-width: 100%;
+    overflow: auto;
+    /*margin:50px auto 15px;*/
+    scroll-behavior: smooth;
+    scroll-snap-type: both;
+}
+#formList::-webkit-scrollbar{
+    display: none;
+}
+.item{
+    border-radius: 15px;
+    width:350px;
+    height:250px;
+    background-image:linear-gradient(to bottom right, rgb(66, 159, 205), rgb(78, 131, 157));
+    overflow: hidden;
+    transition: 0.5s;
+    margin:10px;
+   /* width:100%;*/
+    scroll-snap-align: start;
+}
+.direction{
+    text-align: center;
+}
+.direction button{
+    font-family: cursive;
+    font-weight: bold;
+    background-color: #e0eafbe6;
+    border:none;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin:0 10px;
+}
+.direction button:hover{
+    background-color: #d8ecfabd;
+}

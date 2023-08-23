@@ -1,0 +1,167 @@
+section.introduction1 {
+   background-color:  #f0f8ff;
+    color:white;
+    /*text-align:center;*/
+    padding: 15px 10%;
+  
+}
+div.new{
+    width:30%;
+   
+    background-color:#a5b6d5;
+     margin:15px;
+   /* overflow:hidden;*/
+
+}
+
+div.new1 {
+    width:30%;
+    background-color:#a5b6d5;
+    margin:15px;
+   /* overflow:hidden;*/
+
+}
+div.new1 > div {
+    overflow:hidden;
+
+}
+div.new > div {
+    overflow:hidden;
+
+}
+
+div.news, div.news1 {
+    /*margin:10px;*/
+    display:flex;
+    flex-wrap:wrap;
+    /*padding:50px;*/
+ 
+    
+}
+div.new img, div.new1 img{
+    max-width:100%;
+    transition: transform 0.8s;
+}
+a{
+    color:black;
+} 
+.new p{
+    color:#393939;
+}
+.new1 p{
+    color:#393939;
+}
+h3{
+        color:black;
+   /* text-align: left;*/
+   /* padding:50px;*/
+
+    
+}
+a:hover{
+    color:#273773;
+}
+div.new > div > a > img:hover{
+    transition: transform 0.8s;
+
+}
+/*div.new1 > div > a > img:hover{
+    transition: transform 0.5s;
+}*/
+
+div.new > div > a  > img:hover{
+    transform: scale(1.1);
+   
+}
+/*div.new1 > div > a  > img:hover{
+    transform: rotate(10deg);
+   
+}*/
+
+.introduction1 > span > h1{
+    color:black;
+}
+h1{
+    padding-left:5px;
+}
+p, h4, h5{
+    padding:5px;
+}
+h1.underline:hover{
+    color:#273773;
+
+}
+h1.underline{
+    padding-left: 15px;
+}
+span > h1.underline::after{
+    content:"";
+    height:2px;
+    width:33%;
+    background-color:steelblue;
+    display:block;
+    /*margin: 10px auto;*/
+  
+  }
+/*
+.gt {
+    background-color:#4682b4;
+    
+    padding: var(--myspace);
+    margin-top: var(--myspace);
+    overflow: hidden;
+    font-weight: 600;
+  
+  
+  }
+  div.gt > span{
+    color: white;
+
+  }
+  
+  @keyframes move {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+  }
+  
+  .gt > span {
+    position: relative;
+    animation: move linear 10s infinite;
+    text-align: center;
+  }*/
+  @keyframes doimau{
+    from{
+       color: white;
+    }
+    to{
+       color: black;
+    }
+
+  }
+
+  h5 > a {
+    animation: doimau   3s infinite;
+
+  }
+  div.new1{
+    position:relative;
+  }
+  div.new1::after{
+    content:"";
+    position:absolute;
+    width:0;
+    height:100%;
+    left:0;
+    top:0;
+    /*right:0
+    bottom:0;*/
+    background-color:rgba(0,0,240,0.1);
+    transition: width 0.8s;
+}
+div.new1:hover::after{
+width:100%;
+}

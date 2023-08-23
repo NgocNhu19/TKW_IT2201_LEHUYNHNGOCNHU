@@ -1,0 +1,43 @@
+section.introduction{
+  background-color:#f0f8ff;
+  color:gray;
+  text-align: center;
+  padding: 15px 10%;
+}
+h1{
+  text-shadow: 0px 5px 5px #999999;
+}
+h1.underline::after{
+  content:"";
+  height:3px;
+  width:20%;
+  background-color: gray;
+  display:block;
+  margin: 10px auto;
+
+}
+section.introduction p{
+  margin-top:50px;
+}
+.infos{
+  background-color:#f0f8ff ;
+  color: grey;
+
+}
+.info {
+  justify-content: space-between;
+
+}
+.info-1, .info-2{
+  margin:50px;
+}
+.info-1 p, .info-2 p{
+  padding:5px;
+  color:black;
+
+
+};
+.info-1, .info-2 li{
+  padding:5px;
+
+};
